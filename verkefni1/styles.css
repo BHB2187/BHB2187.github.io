@@ -1,0 +1,12 @@
+h1 {
+    color:black;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(204, 204, 204);
+    max-width: 50em;
+    border: 2px solid black;
+    margin: 1em auto;
+    padding: 1em; 
+    background-color: rgb(59, 59, 59)   
+}
