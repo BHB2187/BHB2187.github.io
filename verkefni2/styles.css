@@ -1,0 +1,28 @@
+h1{
+    border: 3px solid green;
+}
+.redb {
+    border: 3px solid red;
+    color: red;
+    padding: 2em;
+    margin-top: 2em;
+}
+.blueb{
+    border: 4px dashed blue;
+    color: blue;
+    padding:1em;
+
+}
+li {
+    border:3px dashed green;
+    padding:1em;
+    margin:1em;
+}
+.inLine li{
+    display:inline;
+    border: 3px dashed blue;
+}
+.inlineBlock li{
+    display: inline-block;
+    border: 3px dashed red;
+}
