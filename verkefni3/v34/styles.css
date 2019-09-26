@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box; /* padding og border gildi leggjast inní heildarbreidd * allra taga í html skjalinu */
+}
+body {
+  /*  border: 1px solid black; */
+   margin:0 auto;
+    padding:1em;
+    max-width: 60em; /*960 ~ 1080px - fartölvuskjár */
+
+}
+body {
+    background-color: black;  
+    font-family: 'Shadows Into Light', cursive;  
+    color:red;
+}
+/* -- Grid area -- */
+.container {
+    grid-area: container;
+}
+.haus { 
+    grid-area: haus;
+}
+.topmenu {
+    grid-area: topmenu;
+}
+.content {
+    grid-area: content;
+}
+.foot {
+    grid-area: foot;
+}
+/* -- dálkarnir --*/
+.as1 {
+    grid-area: as1;
+}
+.as2 {
+    grid-area: as2;
+}
+.art1 {
+    grid-area: art1;
+}
+
+.container {
+    display: grid;
+    grid-gap:0;
+    grid-template-areas:
+           "topmenu"
+           "haus"
+           "content"
+           "foot"
+}
+.content {
+    display: grid;
+    grid-gap:0;
+    grid-template-areas: 
+        "art1 as1"
+        "art1 as2";
+    grid-template-columns: 3fr 3fr;
+    padding:1em o;
+}
+.topmenu, .footmenu {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    margin: 0;
+    padding:1em 0;
+    background-color: red;
+    
+}
+.topmenu li, .footmenu li {
+    list-style-type: none;
+}
+.haus {
+    text-align: center;
+    border:1px solid #FF3B3F;
+    font-size:13pt;
+    height:100pt;
+}
+.as1 {
+    text-align: center;
+    border:1px solid #FF3B3F;
+}
+.as2 {
+    text-align: center;
+    border:1px solid #FF3B3F;
+}
+.art1{
+    text-align: center;
+    border:1px solid #FF3B3F;
+}
+.as1, .as2 {
+    font-size:10pt
+}
+
+
+    
+
