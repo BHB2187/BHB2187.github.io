@@ -9,7 +9,8 @@ body {
 
 }
 body {
-    background-color: #ffeead;    
+    background-color: #ffeead;  
+    font-family: 'Open Sans', sans-serif;  
 }
 /* -- Grid area -- */
 .container {
