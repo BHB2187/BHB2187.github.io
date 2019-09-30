@@ -62,7 +62,7 @@ body {
     justify-content: space-around;
     margin: 0;
     padding:1em 0;
-    background-color: #ddd;
+    background-color: black;
     
 }
 .topmenu li, .footmenu li {
@@ -80,6 +80,17 @@ body {
 .art1{
     text-align: center;
 }
-
+.topmenu {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+}
+footer a,.topmenu a {
+    display: block;
+    text-decoration: none ;
+    text-align: center;
+    color:#ffeead;
+    padding:1em
+}
     
 
