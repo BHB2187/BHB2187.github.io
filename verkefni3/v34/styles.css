@@ -51,7 +51,7 @@ body {
 }
 .content {
     display: grid;
-    grid-gap:0;
+    grid-gap:2em;
     grid-template-areas: 
         "art1 as1"
         "art1 as2";
@@ -76,13 +76,13 @@ body {
     height:200pt;
 }
 .as1 {
-    text-align: center;
+    text-align: left;
 }
 .as2 {
-    text-align: center;
+    text-align: left;
 }
 .art1{
-    text-align: center;
+    text-align: left;
 }
 .as1, .as2 {
     font-size:10pt
@@ -99,7 +99,3 @@ footer a,.topmenu a {
     color: black;
     padding:1em
 }
-
-
-    
-
