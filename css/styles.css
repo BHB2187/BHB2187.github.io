@@ -1,0 +1,120 @@
+* { box-sizing: border-box }
+
+body {
+    margin: 0; /* tek út sjálgefið 10px margin */
+    /* font-family: ;*/
+    font: 400 1em/1.5 'Playfair Display', serif;; /* samsett skipun: weight/height, size, family */
+    background-color:darkblue;
+}
+h1 {
+    font-weight: 300;
+    font-size: 2.5em;
+}
+
+.container {
+    max-width: 60em; /*960px = fartölvur*/
+    margin: 0 auto; /* top+bottom og left+right */
+    padding: 0;
+}
+/* grid */
+.col-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.col-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.col-4 {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.gap-4 {
+    grid-gap: 4em
+}
+.bground {
+    background-color: burlywood;
+    padding:1em;
+}
+.headcolor, .footcolor {
+    color:white;   
+}
+blockquote {
+    background-color: rgba(255,255,255, .3);
+    padding: 1em;
+}
+.headcolor h1{
+    margin:2em 0 1em 0;
+}
+.headcolor h1,
+.footnav a,
+.topnav a {
+    color:burlywood;
+    text-decoration: none;
+}
+.footnav {
+    padding:0;
+}
+.footnav li {
+    list-style-type: none;
+    line-height: 2;
+}
+.topnav a {
+    padding-left:2em;
+
+}
+.topnav {
+    margin-top:4em;
+}
+
+.headcolor p {
+    text-align: right;
+}
+.innermenu {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+.innermenu a {
+    background-color: darkblue;
+    text-decoration: none;
+    color:burlywood;
+    padding:  .5em 1em;
+    border-right:.5px solid white;
+}
+.innermenu a:hover,
+.innermenu a:active {
+    background-color: burlywood;
+    color:darkblue;
+
+}
+.innermenu a:last-child {
+    border: 0;
+}
+.topnav a:hover,
+.footnav a:hover {
+    text-decoration: underline;
+}
+.topbutt {
+    display: block;
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+    border-radius: 100%;
+    text-decoration: none;
+    padding: 0 .4em;
+    font-size: 2em;
+    color: darkblue;
+    border: 2px solid darkblue;
+    background-color: burlywood;
+}
+.topbutt:hover,
+.topbutt:active {
+    background-color: darkblue;
+    color:burlywood;
+}
+.copy {
+    text-align: center;
+    color: burlywood;
+}
