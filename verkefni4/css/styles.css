@@ -96,3 +96,25 @@ blockquote {
 .footnav a:hover {
     text-decoration: underline;
 }
+.topbutt {
+    display: block;
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+    border-radius: 100%;
+    text-decoration: none;
+    padding: 0 .4em;
+    font-size: 2em;
+    color: darkblue;
+    border: 2px solid darkblue;
+    background-color: burlywood;
+}
+.topbutt:hover,
+.topbutt:active {
+    background-color: darkblue;
+    color:burlywood;
+}
+.copy {
+    text-align: center;
+    color: burlywood;
+}
