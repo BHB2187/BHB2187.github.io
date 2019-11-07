@@ -5,7 +5,7 @@ body {
     /* font-family: ;*/
     font: 400 1em/1.5 'Playfair Display', serif;; /* samsett skipun: weight/height, size, family */
     background-color:rgb(0, 75, 189);
-    color: rgb(199, 9, 9) ;
+    color: rgb(255, 40, 40) ;
 }
 h1 {
     font-weight: 300;
@@ -41,7 +41,7 @@ h1 {
     padding:1em;
 }
 .headcolor, .footcolor {
-    color:rgb(199, 9, 9);   
+    color:rgb(255, 40, 40);   
 }
 blockquote {
     background-color: rgba(255,255,255, .3);
@@ -53,7 +53,7 @@ blockquote {
 .headcolor h1,
 .footnav a,
 .topnav a {
-    color:rgb(199, 9, 9);
+    color:rgb(255, 40, 40);
     text-decoration: none;
 }
 .footnav {
@@ -82,7 +82,7 @@ blockquote {
 .innermenu a {
     background-color: rgb(0, 75, 189);
     text-decoration: none;
-    color:rgb(199, 9, 9);
+    color:rgb(255, 40, 40);
     padding:  .5em 1em;
     border-right:.5px solid white;
 }
@@ -115,11 +115,11 @@ blockquote {
 .topbutt:hover,
 .topbutt:active {
     background-color: rgb(0, 75, 189);
-    color:rgb(199, 9, 9);
+    color:rgb(255, 40, 40);
 }
 .copy {
     text-align: center;
-    color: rgb(199, 9, 9);
+    color: rgb(255, 40, 40);
 }
 .imgR {
     display: block;
