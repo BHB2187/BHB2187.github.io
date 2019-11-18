@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body> 
-    <header class="container headcolor col-2">
+    <header class="headcolor col-2">
       <div>
         <h1>
           Vefhönnun VEFÞ1VG
@@ -23,8 +23,8 @@
       </div>
     </header>
     <section class="bground"> 
-      <main class="container col-2">
-        <section><p><h2><strong>Um mig</strong></h2><p>Ég heiti Benóný Helgi Benónýsson og er 16 ára.</p><p>Ég fæddist árið 2003, 27 ágúst.</p>Ég er að mennta mig í Tækniskólanum og er á tölvubraut. </p>
+      <main class="container">
+          <section class="ummig"><p><h2><strong>Um mig</strong></h2><p>Ég heiti Benóný Helgi Benónýsson og er 16 ára.</p><p>Ég fæddist árið 2003, 27 ágúst.</p>Ég er að mennta mig í Tækniskólanum og er á tölvubraut. </p>
           <h4>Mynd af mér:</h4>
           <img class="myndir" src="images/IMG_20190924_112723_675.jpg" alt="">
           <p></p>
@@ -35,23 +35,23 @@
               <source src="audio/joji.mp3" type="audio/mpeg">
            </audio>
         </section>
-        <section><p><h2><strong>Áhugamál: Fótbolti</strong></h2>Áhugamálið mitt er fótbolti</p>
+        <section class="ahugamal"><p><h2><strong>Áhugamál: Fótbolti</strong></h2>Áhugamálið mitt er fótbolti</p>
           <h3>Mynd 2</h3>
           <img class="myndir"src="images/Ronaldinho.png" alt="">
           <p></p>
           <h3>Mynd 3</h3>
           <img class="myndir"src="images/Fótbolti.png" alt="">
           <h3>Video</h3>
-          <iframe width="100%" height="275" src="https://www.youtube.com/embed/Z9WIWC__i_o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="100%" height="160" src="https://www.youtube.com/embed/Z9WIWC__i_o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </section>
-        <section>
+        <section class="kort">
           <h3>Kort frá google</h3>
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1740.3121415120268!2d-21.904848283751758!3d64.13906748359187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48d674cc84500001%3A0x16719bf129fa31a7!2zVMOma25pc2vDs2xpbm4!5e0!3m2!1sis!2sis!4v1572874289587!5m2!1sis!2sis" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
         </section>
       </main>
     </section>
     <footer class="container footcolor col-3">
-        <nav>
+        <nav class="vinstri">
           <h4>DL listi </h4>
           <dl><!--Description list, nafn tölvupóstur og áfangi-->
             <dt>Nafn:</dt>
@@ -66,7 +66,7 @@
                <dd>Háteigsvegur 105, Reykjavík</dd>
           </dl>
         </nav>
-        <nav>
+        <nav class="midja">
           <h4>Innri tenglar <em>(relative links)</em></h4>
           <ul class="footnav"><!-- inner links -- hér þarf að aðlaga slóðir að eigin verkefnum -->
             <li><a href="verkefni1/index.html">Verkefni 1</a></li>
@@ -82,7 +82,7 @@
             <li><a href="verkefni4/innerlinks.html">Verkefni 4.2</a></li>
           </ul>
         </nav>
-        <nav>
+        <nav class="haegri">
           <h4>Ytri tenglar <em>(absolute links)</em></h4>
           <ul class="footnav"> <!-- Absolute links "target _blank" opnar nýjan glugga í vafranum !aðeins notað þegar vísað er út úr eigin vef-->
             <li> 
