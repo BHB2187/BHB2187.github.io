@@ -1,0 +1,94 @@
+* { box-sizing: border-box }
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(240, 83, 130);
+}
+header {
+    max-width: 100%;
+    display:grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    color:white;
+}
+main {
+    max-width: 70em;
+    margin: 0 auto; /* top+bottom og left+right */
+    padding: 0;
+}
+footer {
+    text-align: center;
+    color: white;
+}
+.innermenu {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    list-style-type: none;
+    display: block;
+    text-decoration: none ;
+    text-align: center;
+    padding:1em
+}
+.innermenu a {
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    padding:  .5em 1em;
+    border-right:.5px solid white;
+}
+.innermenu a:hover,
+.innermenu a:active {
+    color:rgb(240, 83, 130);
+    background-color: white;
+
+}
+.innermenu a:last-child {
+    border: 0;
+}
+.col-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+}
+.col-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2em;
+}
+.col-4 {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.gap-4 {
+    grid-gap: 4em
+}
+.bground {
+    background-color: white;
+    padding:1em;
+}
+.myndir {
+    max-width: 100%;
+}
+@media screen and (min-width: 30em) {
+    
+}
+@media screen and (max-width: 37.5em) {
+    .col-2 {
+        display:grid;
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (min-width: 48em) { 
+
+}
+@media screen and (min-width: 60em) {
+    .col-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 2em;
+    }
+}
+
+
