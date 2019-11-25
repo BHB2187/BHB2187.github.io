@@ -71,6 +71,24 @@ footer {
 .myndir {
     max-width: 100%;
 }
+.breyta {
+    list-style-type: none;
+    text-decoration: none ;
+    padding:1em;
+}
+.breyta a {
+    text-decoration: none;
+    color:rgb(240, 83, 130);
+    padding:  .5em 1em;
+    border-right:.5px solid white;
+}
+.breyta a:hover,
+.breyta a:active {
+    color:rgb(167, 0, 69);
+}
+.breyta a:last-child {
+    border: 0;
+}
 @media screen and (min-width: 30em) {
     
 }
