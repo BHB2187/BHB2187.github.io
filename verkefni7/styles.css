@@ -89,6 +89,29 @@ footer {
 .breyta a:last-child {
     border: 0;
 }
+.breyta2 {
+    list-style-type: none;
+    text-decoration: none ;
+    padding:1em;
+}
+.breyta2 a {
+    text-decoration: none;
+    color:white;
+    padding:  .5em 1em;
+    border-right:.5px solid rgb(240, 83, 130);
+}
+.breyta2 a:hover,
+.breyta2 a:active {
+    color:rgb(240, 83, 130);
+    background-color: white;
+}
+.breyta2 a:last-child {
+    border: 0;
+}
+.copy {
+    text-align: center;
+    color: white;
+}
 @media screen and (min-width: 30em) {
     
 }
@@ -97,8 +120,16 @@ footer {
         display:grid;
         grid-template-columns: 1fr;
     }
+    .grid-3 {
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
 }
 @media screen and (min-width: 48em) { 
+    .grid-3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 
 }
 @media screen and (min-width: 60em) {
@@ -106,6 +137,10 @@ footer {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 2em;
+    }
+    .grid-3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
