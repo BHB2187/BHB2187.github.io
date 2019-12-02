@@ -19,8 +19,15 @@ main {
     padding: 0;
 }
 footer {
-    text-align: center;
     color: white;
+    max-width: 70em;
+    margin: 0 auto; /* top+bottom og left+right */
+    padding: 0;
+    text-align: center;
+
+}
+.vinstri {
+    text-align: left;
 }
 .innermenu {
     display: flex;
